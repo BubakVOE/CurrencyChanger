@@ -15,11 +15,11 @@ class CurrencyController extends Controller
 
     public function convert()
     {
-        $test = Currency::convert()
+        $example = Currency::convert()
                 ->from('USD')
                 ->to('EUR')
                 ->get();
-        dd($test);
+        dd($example);
     }
 
 
